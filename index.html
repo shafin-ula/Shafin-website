@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shafin Ula's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Shafin Ula</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Shafin Ula</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/1705496653947.JPG" alt="Shafin Ula profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Shafin Ula</h1>
+            <p class="section__text__p2">Student at Dulles High School</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Shafin-resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>  
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile"
+                    class="icon" onclick="location.href='https://www.linkedin.com/in/shafin-ula/'"/>
+                <img src="./assets/github.png" alt="My Github profile"
+                    class="icon" onclick="location.href='https://github.com/shafin-ula'"/>
+            </div> 
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.JPG" alt="Profile picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Java Developer Intern @ JPMorgan Chase & Co. <br />Research Assistant @ UH and Rice University</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Dulles High School <br /><i>Math & Science Academy</i> </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet tenetur reiciendis sapiente velit tempora numquam, doloremque dolores. Consectetur sint ea recusandae similique ad autem in fuga. Et quos minima laboriosam veritatis quisquam sint laborum soluta, aut officiis laudantium consectetur explicabo animi cum aspernatur qui at maiores. Velit explicabo error iusto.</p>
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">CS/Programming</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JAVA</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>R</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Matlab</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Other</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Autodesk Fusion 360</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Mathematics/Calculus</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Statistics/Probability</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Data Science/Analytics</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Featured</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Internal Temperature Simulation</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/shafin-ula/Simulation-of-Internal-Temperature'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/shafin-ula/Simulation-of-Internal-Temperature'">
+                        Finished Output
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Contour Airflow Plot/Analysis</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/shafin-ula/Contour-Plotting-of-Airflow'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/shafin-ula/Contour-Plotting-of-Airflow'">
+                        Finished Output
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-3.png" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Diaphragm Mechanics and Simulation</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/shafin-ula/Mechanics-of-Diaphragm'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/shafin-ula/Mechanics-of-Diaphragm'">
+                        Finished Output
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        />       
+    </section>
+    <section id="contact">
+        <h1 class="title">My Contact</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email Icon" class="icon email-icon">
+                <p><a href="mailto:ulashafin@gmail.com">ulashafin@gmail.com</a></p>                
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/shafin-ula/">www.linkedin.com/in/shafin-ula/</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Shafin Ula. All Rights Reserved.</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
